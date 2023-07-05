@@ -15,5 +15,5 @@ alias term='gnome-terminal'
 alias rc='xed ~/.bashrc'
 
 all(){
-    echo $(find . -type f -iregex '.*.'+"$1")
+    echo $(find . -type f -name "*.$1")
 }
