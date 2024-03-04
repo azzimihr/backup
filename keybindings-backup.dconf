@@ -1,0 +1,185 @@
+[/]
+custom-list=['custom31', 'custom29', 'custom28', 'custom24', 'custom26', 'custom21', 'custom9', 'custom17', 'custom16', 'custom13', 'custom11', 'custom3', 'custom2', '__dummy__', 'custom0', 'custom1', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8', 'custom10', 'custom12', 'custom14', 'custom15', 'custom18', 'custom19', 'custom20', 'custom22', 'custom27', 'custom25', 'custom30', 'custom32', 'custom23']
+looking-glass-keybinding=@as []
+magnifier-zoom-in=['<Alt><Super>KP_Add']
+show-desklets=@as []
+
+[custom-keybindings/custom0]
+binding=['<Primary><Shift><Alt>z']
+command='xkill'
+name='fastkill'
+
+[custom-keybindings/custom1]
+binding=['<Super>x']
+command='xed'
+name='text edit'
+
+[custom-keybindings/custom10]
+binding=['<Super>y']
+command='/home/a/Applications/Yuzu.AppImage'
+name='yuzu'
+
+[custom-keybindings/custom11]
+binding=['<Super>2']
+command='/home/a/Applications/PCSX2.AppImage'
+name='pcsx2'
+
+[custom-keybindings/custom12]
+binding=['<Super>1']
+command='/home/a/Applications/DuckStation.AppImage'
+name='duckstation'
+
+[custom-keybindings/custom13]
+binding=['<Super>a']
+command='pavucontrol'
+name='pulseaudio'
+
+[custom-keybindings/custom14]
+binding=['<Super>d']
+command='thorium-browser app.discord.com'
+name='discord'
+
+[custom-keybindings/custom15]
+binding=['<Super>h']
+command='baobab'
+name='storage info'
+
+[custom-keybindings/custom16]
+binding=['<Super>3']
+command='/home/a/Applications/RPCS3.AppImage'
+name='rpcs3'
+
+[custom-keybindings/custom17]
+binding=['<Super>s']
+command='cinnamon-settings keyboard -t 1'
+name='keyboard settings'
+
+[custom-keybindings/custom18]
+binding=['<Super>e']
+command='xemu'
+name='xemu'
+
+[custom-keybindings/custom19]
+binding=['<Super>q']
+command='qbittorrent'
+name='qbit'
+
+[custom-keybindings/custom2]
+binding=['<Primary><Shift>Escape', '<Primary>Escape']
+command='gnome-system-monitor'
+name='system monitor'
+
+[custom-keybindings/custom20]
+binding=['<Super>k']
+command='krita'
+name='krita'
+
+[custom-keybindings/custom21]
+binding=['<Super>7']
+command='env LUTRIS_SKIP_INIT=1 lutris lutris:rungameid/16'
+name='7zip'
+
+[custom-keybindings/custom22]
+binding=['<Super>r']
+command='obs'
+name='obs'
+
+[custom-keybindings/custom23]
+binding=['<Super>m']
+command='lmms'
+name='lmms'
+
+[custom-keybindings/custom24]
+binding=['<Super>o']
+command='goverlay'
+name='goverlay'
+
+[custom-keybindings/custom25]
+binding=['<Super>u']
+command='/home/a/Applications/Cemu.AppImage'
+name='cemu'
+
+[custom-keybindings/custom26]
+binding=['<Super>z']
+command='cpu-x'
+name='cpu-x'
+
+[custom-keybindings/custom27]
+binding=['<Primary><Shift><Alt>s']
+command='poweroff'
+name='shutdown'
+
+[custom-keybindings/custom28]
+binding=['<Super>j']
+command='bash -c "if pgrep qjoypad; then pkill qjoypad; else qjoypad;fi"'
+name='qjoypad'
+
+[custom-keybindings/custom29]
+binding=['<Super>i']
+command='dolphin-emu'
+name='dolphin'
+
+[custom-keybindings/custom3]
+binding=['<Super>w']
+command='thorium-browser'
+name='browser'
+
+[custom-keybindings/custom30]
+binding=['<Primary><Shift><Alt>r']
+command='reboot'
+name='restart'
+
+[custom-keybindings/custom31]
+binding=['<Primary><Super>v']
+command='vlc'
+name='vlc mp'
+
+[custom-keybindings/custom32]
+binding=['<Super>f']
+command='furnace'
+name='furnace'
+
+[custom-keybindings/custom4]
+binding=['<Super>c']
+command='/usr/share/code/code --unity-launch'
+name='vscode'
+
+[custom-keybindings/custom5]
+binding=['<Super>v']
+command='/home/a/Applications/Viber.AppImage'
+name='viber'
+
+[custom-keybindings/custom6]
+binding=['<Super>g']
+command='geogebra-classic'
+name='geogebra'
+
+[custom-keybindings/custom7]
+binding=['<Super>p']
+command='gpick -p'
+name='color picker'
+
+[custom-keybindings/custom8]
+binding=['<Super>l']
+command='env LUTRIS_SKIP_INIT=1 lutris'
+name='lutris'
+
+[custom-keybindings/custom9]
+binding=['<Super>b']
+command='mgba-qt'
+name='mgba'
+
+[media-keys]
+home=['XF86Explorer']
+search=@as []
+terminal=['<Primary><Alt>t', '<Super>t']
+video-rotation-lock=@as []
+volume-down=['XF86AudioLowerVolume', '<Super>F2']
+volume-up=['XF86AudioRaiseVolume', '<Super>F3']
+www=@as []
+
+[wm]
+move-to-corner-nw=@as []
+show-desktop=['<Super>F12']
+switch-monitor=['XF86Display']
+toggle-recording=@as []
