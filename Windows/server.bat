@@ -1,7 +1,7 @@
 @echo off
-set folder="preduzece\%1"
+set loc="preduzece\%1"
 
-:: start windows terminal minimized with two tabs
 start /min wt ^
-    new-tab --title "Vite" cmd /k "cd /d %folder%\front && pnpm dev" ^
-    ; new-tab --title "Flask" cmd /k "cd /d %folder%\back && py app.py"
+    new-tab cmd /k "cd /d %loc%\front && pnpm dev" ^
+    ; new-tab cmd /k "cd /d %loc%\back && flask --app app.py run --reload" ^
+    ; new-tab cmd /k "C:\Program Files\PostgreSQL\17\scripts\custom.bat"
