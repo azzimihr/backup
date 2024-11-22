@@ -1,6 +1,6 @@
 @echo off
-set folder="preduzece\%1"
 
-mkdir %folder%
-mkdir %folder%\back
-mkdir %folder%\front
+cd preduzece
+xcopy /E /I /H template %1
+cd /d %1/front
+pnpm install
