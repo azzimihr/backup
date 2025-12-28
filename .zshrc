@@ -1,6 +1,6 @@
 alias s='sudo'
 
-alias cml='cp ~/Templates/CMakeLists.txt .'
+alias cml='cp ~/Templates/CMakeLists.txt .; mkdir build; cd build'
 alias c+="clang++ -Wall -Wextra -Wpedantic -Werror -std=gnu++20 -O3 -g -march=native"
 alias py='python3'
 
