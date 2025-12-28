@@ -14,3 +14,5 @@ target_compile_options(app PRIVATE
     -O3 -g
     -march=native
 )
+
+target_link_libraries(app glfw GL X11 pthread Xrandr Xi dl)
