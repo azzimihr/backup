@@ -4,7 +4,7 @@ project('app', ['cpp', 'c'],
     'cpp_std=c++17',
     'c_std=c17',
     'buildtype=release',
-    'optimization=2'
+    'optimization=2',
     'warning_level=2',
     'werror=true',  
     'b_lto=true'
