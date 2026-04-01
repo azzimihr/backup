@@ -1,23 +1,27 @@
-project('app', ['cpp', 'c'],
+project('app', 'cpp', 'c',
   version : '1.0',
-  default_options : [
-    'cpp_std=c++17',
-    'c_std=c17',
-    'buildtype=release',
-    'optimization=2',
-    'warning_level=2',
-    'werror=true',  
-    'b_lto=true'
-  ])
+  default_options : ['cpp_std=c++26', 'buildtype=release'])
 
-common = []
+common_flags = [
+  '-march=native',
+  '-O3',
+  '-ffast-math',
+  '-flto=auto',
+  '-fno-signed-zeros',
+  '-fno-trapping-math',
+  '-Wall', '-Wextra', '-Werror'
+]
 
 executable('app',
   files('main.cpp'),
   dependencies : [],
+  link_args : [],
   cpp_args : [
-    common,
+    '-std=c++2b',
+    '-Wpedantic',
+    common_flags
   ],
   c_args : [
-    common,
+    '-std=c23',
+    common_flags
   ])
